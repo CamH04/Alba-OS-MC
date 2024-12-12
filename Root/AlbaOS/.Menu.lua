@@ -17,7 +17,7 @@ term.clear()
 local function drawFrontend()
     -- round down lmao
     centerPrint( math.floor(h/2) - 3, "")
-    centerPrint( math.floor(h/2) - 2, "Start Menu")
+    centerPrint( math.floor(h/2) - 2, "AlbaOS For MC")
     centerPrint( math.floor(h/2) - 1, "")
     centerPrint( math.floor(h/2) + 0, ((nOption == 1) and "> Command <") or "Command" )
     centerPrint( math.floor(h/2) + 1, ((nOption == 2) and "> Programs <") or "Programs" )
@@ -80,12 +80,12 @@ term.clear()
  
 -- Conditions
 if nOption == 1 then 
-    shell.run("AlbaOS/.command")
+    shell.run("AlbaOS/AlbaOS/.command")
 elseif nOption == 2 then
-    shell.run("AlbaOS/.programs") 
+    shell.run("AlbaOS/AlbaOS/.programs") 
 elseif nOption == 3 then
     os.shutdown()
 else
-    shell.run("AlbaOS/.UninstallDialog")
+    shell.run("AlbaOS/AlbaOS/.UninstallDialog")
 end 
 nOption = 1 

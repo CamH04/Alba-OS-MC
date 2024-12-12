@@ -7,17 +7,22 @@ shell.run("delete ","startup")
 shell.run("delete","AlbaOS")
 shell.run("delete",".menu")
 shell.run("delete","uninstall")
-shell.run("delete","back")
+shell.run("delete","AlbaOS/back")
+shell.run("delete","AlbaOS/nest")
 
 
 print("====================================")
 sleep(1)
 textutils.slowPrint("Installing AlbaOS kernel and utils ...")
-shell.run("cp","disk/AlbaOS","startup")
 shell.run("cp","disk/AlbaOS",".menu")
+shell.run("cp","disk/AlbaOS","startup")
 shell.run("cp","disk/AlbaOS","AlbaOS")
 shell.run("cp","disk/AlbaOS","uninstall")
+
+--programms in AlbaOS/ dir
 shell.run("cp","disk/AlbaOS","back")
+shell.run("cp","disk/AlbaOS","Nest")
+
 
 print("====================================")
 textutils.slowPrint("Ejecting AlbaOS Installer ...")
@@ -28,4 +33,5 @@ disk.eject("right")
 disk.eject("front")
 disk.eject("back")
 textutils.slowPrint("Rebooting ... volare sicut tyto noctua")
+sleep(1)
 os.reboot()
