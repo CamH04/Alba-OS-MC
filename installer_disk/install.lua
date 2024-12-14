@@ -5,25 +5,18 @@ textutils.slowPrint("/////////////////////////////////////")
 textutils.slowPrint("Deleteing previous evil os's")
 shell.run("delete ","startup")
 shell.run("delete","AlbaOS")
-shell.run("delete",".menu")
 shell.run("delete","uninstall")
-shell.run("delete","AlbaOS/back")
-shell.run("delete","AlbaOS/nest")
-
-
+shell.run("delete",".menu")
+shell.run("delete","back")
 print("====================================")
 sleep(1)
 textutils.slowPrint("Installing AlbaOS kernel and utils ...")
 shell.run("cp","disk/AlbaOS",".menu")
-shell.run("cp","disk/AlbaOS","startup")
 shell.run("cp","disk/AlbaOS","AlbaOS")
 shell.run("cp","disk/AlbaOS","uninstall")
-
+shell.run("cp","disk/AlbaOS","startup")
 --programms in AlbaOS/ dir
 shell.run("cp","disk/AlbaOS","back")
-shell.run("cp","disk/AlbaOS","Nest")
-
-
 print("====================================")
 textutils.slowPrint("Ejecting AlbaOS Installer ...")
 disk.eject("top")

@@ -1,4 +1,4 @@
-s.pullEvent = os.pullEventRaw
+os.pullEvent = os.pullEventRaw
  
 local w,h = term.getSize()
  
@@ -80,12 +80,12 @@ term.clear()
  
 -- Conditions
 if nOption == 1 then 
-    shell.run("AlbaOS/AlbaOS/.command")
+    shell.run("AlbaOS/.command")
 elseif nOption == 2 then
-    shell.run("AlbaOS/AlbaOS/.programs") 
+    shell.run("AlbaOS/.programs") 
 elseif nOption == 3 then
     os.shutdown()
 else
-    shell.run("AlbaOS/AlbaOS/.UninstallDialog")
+    shell.run("AlbaOS/.UninstallDialog")
 end 
 nOption = 1 

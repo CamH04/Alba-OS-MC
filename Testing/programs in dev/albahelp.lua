@@ -1,0 +1,6 @@
+print("root dir programs:")
+print("         Doom")
+print("                  ")
+print("AlbaOS/ dir programs:")
+print("         back")
+print("         albahelp")

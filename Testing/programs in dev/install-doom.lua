@@ -1,0 +1,1 @@
+shell.run("pastebin","get","xLC8mABU", "idrun")

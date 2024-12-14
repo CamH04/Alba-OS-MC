@@ -1,6 +1,6 @@
 term.clear()
 term.setCursorPos(1,1)
-
+ 
 shell.run("delete","install")
 shell.run("delete","eject")
 shell.run("cp","disk/install","install")
