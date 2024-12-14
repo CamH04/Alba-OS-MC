@@ -1,5 +1,10 @@
 # Alba OS For MC!
 
+Pastebin link for all files:
+https://pastebin.com/u/AlbaDev
+
+to make an installer disk: get and then run MAKEINSTALLERPROGRAM at (BdBew9St) as root and reboot
+
 Os is "functional", 
 
 1. "pre boots" to gui file sys
