@@ -12,3 +12,6 @@ Os is "functional",
 
 
 ^ "its not a bug its a feature"
+
+
+this is a distraction from my OS and because i have lot of work to do gg
